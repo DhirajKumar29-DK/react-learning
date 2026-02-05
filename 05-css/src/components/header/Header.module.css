@@ -1,0 +1,21 @@
+
+.head{
+  background-color: lightblue;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn{
+  background: #e05050;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.name{
+  text-decoration: line-through;
+}

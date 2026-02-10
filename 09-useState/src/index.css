@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  margin: 20px;
+  padding: 10px 15px;
+}
+
+h1{
+  background-color: #b5b5b3;
+  margin: 20px;
+  padding: 10px 80px;
+  width: fit-content;
+  border-radius: 5px;
+  font-size: 100px;
+}

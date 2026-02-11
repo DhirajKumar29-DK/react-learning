@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
@@ -29,11 +28,11 @@ const App = () => {
 const[a, setA] = useState(0)
 const[b, setB] = useState(0)
 
-const aChange = () =>{
+const aChange = ()=>{
    console.log("A is changing")
 };
 
-const bChange = () =>{
+const bChange = ()=>{
    console.log("b is changing")
 }
 
@@ -50,12 +49,12 @@ return(
     <h1>A is {a}</h1>
     <h1>B is {b}</h1>
     <button
-    onClick={ () =>{
+    onClick={ ()=>{
       setA(a+1)
     }} 
     >Change A</button>
     <button 
-    onClick={ () =>{
+    onClick={ ()=>{
       setB(b-1)
     }}
     >Change B</button>
